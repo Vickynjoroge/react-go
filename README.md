@@ -11,7 +11,7 @@ This is a simple To-Do task web application built with **Go (Golang) for the bac
 
 ## Tech Stack
 - **Frontend:** React, Vite, TanStack Query
-- **Backend:** Golang (using Gin or Fiber)
+- **Backend:** Golang (using Fiber)
 - **Database:** MongoDB (MongoDB Atlas)
 - **API Communication:** REST API
 
@@ -59,8 +59,8 @@ This is a simple To-Do task web application built with **Go (Golang) for the bac
 |--------|--------------|------------------|
 | GET    | `/todos`     | Get all todos    |
 | POST   | `/todos`     | Create a new todo|
-| PUT    | `/todos/:id` | Update a task    |
-| DELETE | `/todos/:id` | Delete a task    |
+| PUT    | `/todos/:id` | Update a todo    |
+| DELETE | `/todos/:id` | Delete a todo    |
 
 ## Deployment
 For deployment, you can use Railway or other cloud providers.
